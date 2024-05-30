@@ -18,7 +18,7 @@ export default function Sintomas() {
             Náuseas e vômito?
             <br /> <br />
             Manchas na pele? <br /> <br />
-            Calma! Siga estas dicas para se recuperar: <br /> <br />
+            Mantenha a calma! Siga estas dicas para se recuperar: <br /> <br />
             <strong>Descanso:</strong> Tire um cochilo ou relaxe na cama. Seu corpo precisa
             recarregar! <br /> <br />
             <strong>Água:</strong> Beba bastante água, sucos ou caldos. Hidratação é fundamental!{" "}
