@@ -7,7 +7,7 @@ export default function Sintomas() {
       <div className="sintomas-content">
         <img src="./img/dengue_sintomas.png" alt="" />
         <div className="sintomas-text">
-          <h2>Sintomas te pegando?</h2>
+          <h2>Sintomas se Manifestando?</h2>
           <p>
             <br />
             Febre alta? <br /> <br />
