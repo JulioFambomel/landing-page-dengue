@@ -23,7 +23,7 @@ export default function Sintomas() {
             recarregar! <br /> <br />
             <strong>Água:</strong> Beba bastante água, sucos ou caldos. Hidratação é fundamental!{" "}
             <br /> <br />
-            <strong>Comida leve:</strong> Coma frutas, verduras e sopas. Evite frituras e comidas
+            <strong>Comida Leve:</strong> Coma frutas, verduras e sopas. Evite frituras e comidas
             pesadas. <br /> <br />
             <strong> Alerta:</strong> <br /> <br />
             Se os sintomas piorarem ou você tiver sinais de alerta (abaixo), vá
