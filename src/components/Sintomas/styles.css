@@ -1,0 +1,35 @@
+.sintomas-section {
+    background: var(--bg-section);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.sintomas-content {
+    padding: 50px;
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    gap: 100px;
+    justify-content: center;
+}
+
+.sintomas-content img {
+    box-shadow: var(--box-shadow);
+    border-radius: 10px;
+    width: 30vw;
+}
+
+
+@media (max-width: 1366px) {
+    .sintomas-content {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 900px) {
+    .sintomas-content img {
+        width: 70vw;
+    }
+}

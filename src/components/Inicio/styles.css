@@ -1,0 +1,43 @@
+.inicio-section {
+    padding-top: 0;
+    height: 75vh;
+    background-image: url("/img/banner.png");   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.inicio-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -200px;
+}
+
+.inicio-section h1 {
+    text-align: center;
+    font-size: 60px;
+    color: var(--bg-section);
+}
+
+.inicio-section p {
+    color: var(--bg-section);
+    width: 40vw;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+    .inicio-section {
+        background-position: 15%;
+        height: 90vw;
+    }
+    .inicio-content {
+        margin-top: 50px;
+    }
+}
+
+

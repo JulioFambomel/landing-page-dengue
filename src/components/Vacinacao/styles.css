@@ -1,0 +1,56 @@
+.vacinacao-section {
+  background-color: var(--bg-section);
+  gap: 50px;
+  margin-top: -50px;
+  overflow: hidden;
+}
+.vacinacao-container {
+  border-radius: 10px;
+  padding: 50px 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.vacinacao-banner {
+  width: 60vw;
+  filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5));
+}
+
+.vacinacao-section p {
+  text-align: center;
+  padding: 30px 200px;
+  font-size: 26px;
+}
+
+.vacinacao-fonts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  gap: 20px;
+  background-color: white;
+  box-shadow: var(--box-shadow);
+  border-radius: 10px;
+}
+
+.vacinacao-fonts img {
+  width: 30vw;
+}
+
+.vacinacao-fonts h2 {
+  padding-bottom: 16px;
+}
+
+@media (max-width: 1366px) {
+  .vacinacao-section p {
+    padding: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .vacinacao-fonts img {
+    width: 60vw;
+  }
+}
