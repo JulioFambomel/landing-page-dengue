@@ -12,7 +12,7 @@ export default function Footer () {
             <li className="rodape-link"><a href="/#plans">Planos</a></li>
             <li className="rodape-link"><a href="/#contato">Contato</a></li>
         </ul>
-        <p className="copy">Copyright Fambomel Corp. Todos os direitos reservados.</p>
+        <p className="copy">Copyright Julio Fambomel - Todos os direitos reservados.</p>
        </div>
     </footer>
         </>
